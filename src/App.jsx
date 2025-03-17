@@ -32,9 +32,10 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/signup' element={<Register/>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/verify-email/:token' element={<VerifyEmail/>}/>
       <Route path='/admin' element={<ProtectedRoute component={<Admin/>}/>}>
         <Route index element={<AdminDashboard/>}/>
-        <Route path='/admin/manage-users' element={<ManageUsers/>}/>
+        <Route path='manage-users' element={<ManageUsers/>}/>
       </Route>
       <Route path='/doctor' element={<ProtectDoctor component={<Doctor/>}/>}>
        <Route index element={<ManageAppointments/>}/>
@@ -42,13 +43,13 @@ function App() {
       </Route>
       <Route path='/patient' element={<ProtectPatient component={<Patient/>}/>}>
       <Route index element={<MakeAppointment/>}/>
-      <Route path='/patient/appointment-status' element={<AppointmentStatus/>}/>
-      <Route path='/patient/patient-records' element={<PatientRecords/>}/>
+      <Route path='appointment-status' element={<AppointmentStatus/>}/>
+      <Route path='patient-records' element={<PatientRecords/>}/>
       </Route>
       <Route path='/nurse' element={<ProtectNurse component={<Nurse/>}/>}>
       <Route index element={<NurseDashboard/>}/>
       </Route>
-      <Route path='/verify-email/:token' element={<VerifyEmail/>}/>
+      
     </Routes>
     </BrowserRouter>
   )

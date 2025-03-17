@@ -46,7 +46,7 @@ const Login = () => {
           navigate('/patient')
          break;
       default:
-        navigate('/')
+        navigate('/') 
     }
     } catch (err) {
       setError(err.response?.data?.message || "login failed");
