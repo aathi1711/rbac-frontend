@@ -29,13 +29,9 @@ This is a Hospital Management System built using the MERN stack (MongoDB, Expres
    ```sh
    npm install
    ```
-3. Create a `.env` file and add the following:
-   ```env
-   PORT=5000
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_secret_key
+
    ```
-4. Start the server:
+3. Start the server:
    ```sh
    npm start
    ```
@@ -56,22 +52,22 @@ This is a Hospital Management System built using the MERN stack (MongoDB, Expres
 
 ## API Endpoints
 ### Authentication
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Login user
+- `POST /register` - Register a new user
+- `POST /login` - Login user
 
 ### User Management (Admin)
 - `GET /api/users` - Get all users
 - `PUT /api/users/:id/role` - Update user role
 
 ### Appointments
-- `POST /api/appointments` - Create an appointment
-- `GET /api/appointments` - Get all appointments
-- `PUT /api/appointments/:id/status` - Approve/reject appointment
+- `POST /appointments` - Create an appointment
+- `GET /appointments` - Get all appointments
+- `PUT /appointments/:id/status` - Approve/reject appointment
 
 ### Patient Records
-- `GET /api/patients/:id/records` - Get patient records
-- `POST /api/patients/:id/note` - Add doctor note
-- `PUT /api/patients/:id/vitals` - Update patient vitals
+- `GET /patients/:id/records` - Get patient records
+- `POST /patients/:id/note` - Add doctor note
+- `PUT /patients/:id/vitals` - Update patient vitals
 
 ## Future Enhancements
 - Add prescription management

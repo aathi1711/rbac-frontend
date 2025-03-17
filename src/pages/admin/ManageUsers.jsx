@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export default function ManageUsers() {
   const [users, setUsers] = useState([]);
   const [updateTrigger,setUpdateTrigger] = useState(false)
-  const roles = ["Admin", "Doctor", "Nurse", "Receptionist", "Patient"];
+  const roles = ["Admin", "Doctor", "Nurse", "Patient"];
   const apiUrl = import.meta.env.VITE_API_URL;
   const token = localStorage.getItem('token')
   const handleApprove = async(email,role) => {
