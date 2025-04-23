@@ -45,7 +45,7 @@ export default function Patient() {
         </nav>
       </div>
       {/* Main content */}
-      <div className="flex-1 md:ml-64">
+      <div className="font-poppins flex-1 md:ml-64">
         <div className="p-5 bg-white fixed top-0 w-full  shadow flex justify-between items-center">
           <button className="md:hidden" onClick={() => setSidebarOpen(true)}>
             <Menu className="w-6 h-6 text-gray-600" />

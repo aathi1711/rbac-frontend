@@ -10,7 +10,7 @@ export default function Admin() {
     navigate('/')
   }
   return (
-    <div className="flex min-h-screen bg-gray-100">
+    <div className="flex min-h-screen bg-gray-100 font-poppins">
       {/* Sidebar */}
       <div
         className={`fixed  top-0 left-0 z-50 w-64 bg-blue-600 shadow-lg transform ${

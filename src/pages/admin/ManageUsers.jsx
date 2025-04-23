@@ -30,7 +30,7 @@ useEffect(()=>{
   displayUsers()
 },[updateTrigger])
   return (
-    <div className="min-h-screen bg-gray-100 mt-16 p-5">
+    <div className="min-h-screen bg-gray-100 mt-16 p-5 font-poppins">
       <h1 className="text-2xl font-semibold mb-5 text-blue-600 text-center">Manage Users</h1>
       <div className="space-y-4">
         {users.map((user) => (

@@ -10,7 +10,7 @@ export default function Nurse() {
     navigate('/')
   }
   return (
-    <div className="flex min-h-screen ">
+    <div className="font-poppins flex min-h-screen ">
       {/* Sidebar */}
       <div
         className={`fixed  top-0 left-0 z-50 w-64 bg-pink-600 shadow-lg transform ${

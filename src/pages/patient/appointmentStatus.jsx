@@ -26,7 +26,7 @@ const AppointmentStatus = () => {
   }, []);
 
   return (
-    <div className="p-4 mt-20">
+    <div className="font-poppins p-4 mt-20">
       <h2 className="text-2xl font-semibold text-gray-800  mb-4">Patient Records</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
         {appointments.length > 0 ? (

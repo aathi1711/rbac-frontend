@@ -22,7 +22,7 @@ export default function AdminDashboard() {
     displayUsers()
   },[])
   return (
-    <div className="min-h-screen bg-gray-100 mt-16" >
+    <div className="min-h-screen bg-gray-100 mt-16 font-poppins" >
       <div className="flex flex-wrap gap-6 justify-center p-5">
       <div className="flex flex-col items-center justify-center p-5 w-48 h-32 rounded-xl shadow-md bg-blue-500">
         <h2 className="text-xl font-semibold text-white">Doctors</h2>

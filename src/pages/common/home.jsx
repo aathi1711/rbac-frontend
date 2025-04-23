@@ -8,7 +8,7 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate()
   return (
-    <div className="relative w-full min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/hospital-bg.jpg')" }}>
+    <div className="font-poppins relative w-full min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/hospital-bg.jpg')" }}>
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
         <div className="container mx-auto flex justify-between items-center p-4">

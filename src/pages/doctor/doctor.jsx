@@ -10,7 +10,7 @@ export default function Doctor() {
     navigate('/')
   }
   return (
-    <div className="flex min-h-screen bg-gray-100">
+    <div className="font-poppins flex min-h-screen bg-gray-100">
       {/* Sidebar */}
       <div
         className={`fixed  top-0 left-0 z-50 w-64 bg-green-600 shadow-lg transform ${

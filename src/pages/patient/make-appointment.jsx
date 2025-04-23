@@ -38,7 +38,7 @@ const MakeAppointment = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white rounded-lg mt-20 shadow-md">
+    <div className="font-poppins max-w-md mx-auto p-6 bg-white rounded-lg mt-20 shadow-md">
       <h2 className="text-xl font-semibold mb-4">Book an Appointment</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
       <input type="text" name="name" placeholder="Full Name" value={appointment.name} onChange={handleChange} required className="w-full p-2 border rounded" />

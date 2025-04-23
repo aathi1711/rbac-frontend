@@ -49,7 +49,7 @@ function App() {
       <Route path='/nurse' element={<ProtectNurse component={<Nurse/>}/>}>
       <Route index element={<NurseDashboard/>}/>
       </Route>
-      
+    
     </Routes>
     </BrowserRouter>
   )

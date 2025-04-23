@@ -38,7 +38,7 @@ const PatientDetais = () => {
   };
 
   return (
-    <div className="p-5 mt-20">
+    <div className="font-poppins p-5 mt-20">
       <h2 className="text-xl font-bold mb-4">Patient Records</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {

@@ -43,7 +43,7 @@ const displayAppointments = async()=>{
   };
 
   return (
-    <div className=" mx-auto mt-16 w-full p-4">
+    <div className="font-poppins mx-auto mt-16 w-full p-4">
       <h2 className="text-2xl font-semibold  mb-4">Manage Appointments</h2>
       <div className="bg-white shadow-md rounded-lg p-4">
         {appointments.length === 0 ? (

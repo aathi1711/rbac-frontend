@@ -56,7 +56,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen w-full items-center justify-center bg-cover bg-[url('https://i.pinimg.com/736x/89/01/7c/89017cd7b1b2e4c5fbfd214253cb08be.jpg')]">
+    <div className="font-poppins flex flex-col min-h-screen w-full items-center justify-center bg-cover bg-[url('https://i.pinimg.com/736x/89/01/7c/89017cd7b1b2e4c5fbfd214253cb08be.jpg')]">
        <Logo/>
       <div className="w-full mb-5 max-w-sm mt-5 max-md:w-11/12 rounded p-6 bg-gradient-to-t from-sky-400 to-blue-600 shadow-lg">
         <h2 className="mb-6 text-center text-2xl font-semibold text-white">
